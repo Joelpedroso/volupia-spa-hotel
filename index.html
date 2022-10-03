@@ -217,7 +217,10 @@ footer a:hover{
 <header> <!--Cabeçalho-->
     <h1>Volúpia Hotel SPA </h1>
     <p>Uma proposta inovadora para o bem-estar e qualidade de vida. </p>
-    <img src="imagens/imagem logo hotel1.jpg" alt="hotel">
+    <picture>
+    <source media="(max-width:254px )" srcset="imagem logo hotelpequeno">
+    <img src="imagens/imagem logo hotel.jpg" alt="hotel" class="hotel">
+    </picture>
 </header>
 <nav><!--Menu-->
     <a href="#">HOME</a>
@@ -254,17 +257,26 @@ objetivo.
     <h2>Imagens da Cromoterapia</h2>
     <br>
    
-    <img src="imagens/cromoterapia_terapia_das_cores-750x375.jpg" alt="Primeiro mascote do Android" class="cores">
+    <picture>
+        <source media="(max-width:500px )" srcset="cromoterapia_terapia_das_cores-pequena 750x375">
+        <img src="imagens/cromoterapia_terapia_das_cores-750x375.jpg" alt="Primeiro mascote do Android" class="cores">
+    </picture>
     <span>imagem 01 - cromoterapia</span>
     <br>
     <br>
-    <img src="imagens/cromoterapia-para-dormir-1024x878.jpg" alt="" class="dormir">
+    <picture>
+        <source media="(max-width:480px )" srcset="cromoterapia-para-dormir-pequena - 1024x878">
+        <img src="imagens/cromoterapia-para-dormir-1024x878.jpg" alt="" class="dormir">
+    </picture>
     <span>imagem 02 - cromoterapia</span> 
     <br>
     <br>
     <h2>Imagens da aromaterapia </h2>
     <br>
+    <picture>
+        <source media="(max-width:360px )" srcset="aromaterapiaII -750x375.pequena">
     <img src="imagens/aromaterapiaII -750x375.png" alt="irina blok" class="aroma">
+    </picture>
     <br>
     <br>
     <h2>Vamos relaxar - assista o video</h2>
